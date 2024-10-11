@@ -1,17 +1,16 @@
-/* ให้ body ครอบคลุมพื้นที่ทั้งหมด */
+
 html, body {
-  height: 100%; /* ความสูงเต็มหน้าจอ */
-  margin: 0; /* ลบ margin ที่มาตั้งต้น */
-  display: flex; /* ใช้ flexbox */
-  justify-content: center; /* จัดแนวนอนให้ตรงกลาง */
-  align-items: center; /* จัดแนวตั้งให้ตรงกลาง */
+  height: 100%; 
+  margin: 0; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
 
-/* การตั้งค่าของ container */
 .container {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto; /* ให้อยู่ตรงกลางแนวนอน */
+  margin: 0 auto; 
   padding: 20px;
 }
 
