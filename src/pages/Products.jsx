@@ -31,7 +31,7 @@ function Products() {
         description: ''
       });
     } else {
-      alert('กรุณากรอกชื่อและราคาสินค้า');
+      alert('กรอกชื่อและราคาด้วยค้าบบบ');
     }
   };
 
