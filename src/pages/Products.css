@@ -1,0 +1,59 @@
+/* ให้ body ครอบคลุมพื้นที่ทั้งหมด */
+html, body {
+  height: 100%; /* ความสูงเต็มหน้าจอ */
+  margin: 0; /* ลบ margin ที่มาตั้งต้น */
+  display: flex; /* ใช้ flexbox */
+  justify-content: center; /* จัดแนวนอนให้ตรงกลาง */
+  align-items: center; /* จัดแนวตั้งให้ตรงกลาง */
+}
+
+/* การตั้งค่าของ container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; /* ให้อยู่ตรงกลางแนวนอน */
+  padding: 20px;
+}
+
+.product-list-container {
+  padding: 20px;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.remove-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: darkred;
+}
+
+.input-large {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
